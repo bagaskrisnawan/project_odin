@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     font-family: "Roboto", sans-serif;
+    line-height: 1.5;
 }
 
 header {
@@ -32,3 +33,40 @@ a {
     color: white;
 }
 
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 43px;
+    min-height: 100vh;
+    padding: 20px 60px;
+    background-color: #1F2937;
+    color: white;
+}
+
+img {
+    max-width: 712px;
+    max-height: auto;
+    border-radius: 10px;
+}
+
+
+.hero-content h1,p{
+ color: #F9FAF8;
+ margin-bottom: 25px;
+}
+
+.hero-content h1 {
+    font-size: 42px;
+    font-weight: 900;
+}
+
+.hero-content p {
+    font-size: 19px;
+}
+
+.hero-content button {
+    border-radius: 5px;
+    padding: 8px 22px;
+    border: none;
+}
