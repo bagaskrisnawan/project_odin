@@ -50,19 +50,17 @@ a {
     border-radius: 10px;
 }
 
-
-.hero-content h1,p{
- color: #F9FAF8;
- margin-bottom: 25px;
-}
-
 .hero-content h1 {
     font-size: 42px;
     font-weight: 900;
+    color: #F9FAF8;
+    margin-bottom: 25px;
 }
 
 .hero-content p {
     font-size: 19px;
+    color: #F9FAF8;
+ margin-bottom: 25px;
 }
 
 .hero-content button {
@@ -112,4 +110,20 @@ a {
     height: 100%;
     object-fit: cover;
     border-radius: 5px;
+}
+
+.quote-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 64px 128px;
+}
+
+.quote q{
+    font-size: 32px;
+}
+
+.quote footer {
+    text-align: right;
 }
