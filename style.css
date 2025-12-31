@@ -44,7 +44,7 @@ a {
     color: white;
 }
 
-img {
+.hero img {
     max-width: 712px;
     max-height: auto;
     border-radius: 10px;
@@ -69,4 +69,47 @@ img {
     border-radius: 5px;
     padding: 8px 22px;
     border: none;
+}
+
+.information h1{
+    color: #1F2937;
+    text-align: center;
+    padding: 40px 0;
+    font-size: 36px;
+}
+
+.information p {
+    width: 200px;
+    color: black;
+    text-align: center;
+    font-size: 16px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    padding-bottom: 64px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-img {
+    width: 200px;
+    height: 200px;
+    border: 5px solid #1F2937;
+    border-radius: 10px;
+    margin-bottom: 16px;
+}
+
+.card-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
 }
